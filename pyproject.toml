@@ -20,11 +20,11 @@ classifiers = [
 keywords = ["tribology", "surface energy", "surface", "wulff shape", "wulff construction"]
 dependencies = [
     "atomate",
-    "pymatgen==2023.12.18",
+    "pymatgen",
     "custodian",
     "fireworks",
-    "numpy==1.26.4",
-    "ruamel.yaml==0.17.40",
+    "numpy",
+    "ruamel.yaml",
     "streamlit",
     "htflow-utils[workflows]",
     "custodian",
